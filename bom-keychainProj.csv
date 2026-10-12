@@ -1,0 +1,18 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Exclude from Simulation,Exclude from Position Files,Footprint,Datasheet
+BT1,1,Battery_Cell,,,,,${EXCLUDE_FROM_POS_FILES},Battery:BatteryHolder_Keystone_1058_1x2032,
+BZ1,1,Buzzer,,,,,${EXCLUDE_FROM_POS_FILES},Buzzer_Beeper:Buzzer_12x9.5RM7.6,
+"C1,C3",2,100nF,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0805_2012Metric,
+"C2,C4",2,10uF,,,,,${EXCLUDE_FROM_POS_FILES},Capacitor_SMD:C_0805_2012Metric,
+"D1,D3,D4,D5,D6,D8,D9,D10",8,LED,,,,,${EXCLUDE_FROM_POS_FILES},LED_SMD:LED_0805_2012Metric,
+D2,1,LED_RABG,,,,,${EXCLUDE_FROM_POS_FILES},LED_SMD:LED_RGB_1210,
+J1,1,Conn_01x04_Pin,,,,,${EXCLUDE_FROM_POS_FILES},Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,
+J2,1,USB_C_Receptacle_PowerOnly_6P,,,,,${EXCLUDE_FROM_POS_FILES},Connector_USB:USB_C_Receptacle_GCT_USB4085,https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+"R1,R2,R3,R4",4,100,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric,
+"R5,R6",2,47,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric,
+R7,1,330,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric,
+"R8,R9,R12",3,4k7,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric,
+"R10,R11",2,5k1,,,,,${EXCLUDE_FROM_POS_FILES},Resistor_SMD:R_0805_2012Metric,
+SW1,1,SW_SPDT_MSM,,,,,${EXCLUDE_FROM_POS_FILES},Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q,
+U1,1,AMS1117CD-3.3,,,,,${EXCLUDE_FROM_POS_FILES},Package_TO_SOT_SMD:TO-252-3_TabPin2,http://www.advanced-monolithic.com/pdf/ds1117.pdf
+U2,1,LIS3DH,,,,,${EXCLUDE_FROM_POS_FILES},Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y,https://www.st.com/resource/en/datasheet/cd00274221.pdf
+U4,1,CH32V003FxPx,,,,,${EXCLUDE_FROM_POS_FILES},Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,https://www.wch-ic.com/products/CH32V003.html
