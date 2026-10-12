@@ -92,7 +92,7 @@
 		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
-			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_020000af)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -122,9 +122,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "fab/")
 		)
 	)
 	(footprint "Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y"

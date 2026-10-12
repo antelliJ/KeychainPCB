@@ -1,0 +1,19 @@
+Reference,Qty,Value,Manufacturer,MPN,LCSC #,KiCad Footprint,LCSC Link,Notes
+U4,1,CH32V003F4P6,WCH,CH32V003F4P6,C5187096,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,https://www.lcsc.com/product-detail/C5187096.html,
+U2,1,LIS3DH,ST,LIS3DHTR,C15134,Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y,https://www.lcsc.com/product-detail/C15134.html,
+U1,1,AMS1117-3.3,Advanced Monolithic Systems,AMS1117-3.3,C6186,Package_TO_SOT_SMD:TO-252-3_TabPin2,https://www.lcsc.com/product-detail/C6186.html,Check package: footprint is TO-252 but this LCSC part is likely SOT-223
+"D1,D3,D4,D5,D6,D8,D9,D10",8,Red LED,Kingbright,APT2012SURCK,C5875730,LED_SMD:LED_0805_2012Metric,https://www.lcsc.com/product-detail/C5875730.html,
+D2,1,RGB LED (common anode),EKINGLUX,E6C1209RGBC3UDA,C375572,LED_SMD:LED_RGB_1210,https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_EKINGLUX-E6C1209RGBC3UDA_C375572.html,Check footprint size and pin order against datasheet
+"R1,R2,R3,R4",4,100,FOJAN,FRC0603F1000TS,C2906981,Resistor_SMD:R_0805_2012Metric,https://www.lcsc.com/product-detail/C2906981.html,Part is 0603; footprint is 0805
+"R5,R6",2,47,FOJAN,FRC0603F47R0TS,C2907043,Resistor_SMD:R_0805_2012Metric,https://www.lcsc.com/product-detail/C2907043.html,Part is 0603; footprint is 0805
+R7,1,330,FH,TD03G3300BT,C666864,Resistor_SMD:R_0805_2012Metric,https://www.lcsc.com/product-detail/C666864.html,Confirm package matches footprint
+"R8,R9",2,4.7k,YAGEO,RC0603FR-074K7L,C99782,Resistor_SMD:R_0805_2012Metric,https://www.lcsc.com/product-detail/C99782.html,Part is 0603; footprint is 0805
+"R10,R11",2,5.1k,YAGEO,RC0603FR-075K1L,C105580,Resistor_SMD:R_0805_2012Metric,https://www.lcsc.com/product-detail/C105580.html,Part is 0603; footprint is 0805
+R12,1,10k,YAGEO,RC0603FR-0710KL,C98220,Resistor_SMD:R_0805_2012Metric,https://www.lcsc.com/product-detail/C98220.html,Schematic value was 4k7; update to 10k. Part is 0603; footprint is 0805
+"C1,C3",2,100nF,Samsung Electro-Mechanics,CL10B104KB8NNNC,C1591,Capacitor_SMD:C_0805_2012Metric,https://www.lcsc.com/product-detail/C1591.html,Part is 0603; footprint is 0805
+"C2,C4",2,10uF,,,,Capacitor_SMD:C_0805_2012Metric,,No part chosen yet
+BT1,1,CR2032 holder,MYOUNG,BS-02-A1AJ010,C5239862,Battery:BatteryHolder_Keystone_1058_1x2032,https://www.lcsc.com/product-detail/C5239862.html,Check footprint against this holder's datasheet
+SW1,1,SPDT slide switch (ON-OFF-ON),C&K,JS203011AQN,C221667,Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q,https://www.lcsc.com/product-detail/C221667.html,Footprint is for a different C&K series; check datasheet land pattern
+J2,1,"USB-C receptacle, power only 6P",SHOU HAN,TYPE-C 6P(073),C668623,Connector_USB:USB_C_Receptacle_GCT_USB4085,https://www.lcsc.com/product-detail/C668623.html,Footprint is for a GCT 16-pin part; use this part's land pattern
+BZ1,1,Piezo buzzer (passive),TDK,PS1240P02BT,C76871,Buzzer_Beeper:Buzzer_12x9.5RM7.6,https://www.lcsc.com/product-detail/C76871.html,Check lead spacing against datasheet
+J1,1,"Header 1x4, 2.54 mm",,,,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,,No part chosen yet
