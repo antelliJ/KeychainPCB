@@ -30,7 +30,7 @@
 | [Passive buzzer](https://www.lcsc.com/product-detail/C76871.html) | making the beeps and boops for interactiveness | 1 | $0.21 | $0.21 | [LCSC](https://www.lcsc.com/product-detail/C76871.html) |
 | [4 pin Headers](https://www.lcsc.com/product-detail/C32713270.html) | for programming | 5 | $0.03 | $0.15 | [LCSC](https://www.lcsc.com/product-detail/C32713270.html) |
 | **Parts subtotal** | — | — | — | **$15.91** | — |
-| **Tax & shipping** | — | — | — | **$16.16** | — |
-| **Total** | — | — | — | **$32.07** | — |
+| **Tax & shipping** | — | — | — | **$13.16** | — |
+| **Total** | — | — | — | **$29.07** | — |
 
-**$2.07 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+$0.93 left of the tier's funding.
