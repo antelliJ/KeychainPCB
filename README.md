@@ -19,6 +19,7 @@ The back silkscreen plugs my [github account](https://github.com/antelliJ) throu
 
 The front silkscreens include some random things I thought would be interesting, like a ruler and fun hints to get people interested in what the board can actually do
 
+[![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FantelliJ%2FKeychainPCB%2Ftree%2Fmain%2FPCB)
 
 ### File structure
 `\PCB\` includes files relevant for the pcb and manufacturing. 
@@ -34,7 +35,8 @@ One of which that would show a morse code representation of my name, among other
 ## Bill of Materials
 A nicely formatted excel sheet is provided at `\PCB\production\Keychain-Bom.xlsx`
 The below is just a static version of that...
-| Designator                      | Footprint                            | Quantity | Value                         | JLCPCB Part #（optional） | MPN                                        |
+
+| Designator                      | Footprint                            | Quantity | Value                         | JLCPCB Part # | MPN                                        |
 | ------------------------------- | ------------------------------------ | -------- | ----------------------------- | ----------------------- | ------------------------------------------ |
 | BT1                             | BatteryHolder_Keystone_1058_1x2032   | 1        | Battery_Cell                  |                         |                                            |
 | BZ1                             | Buzzer_12x9.5RM7.6                   | 1        | Piezo buzzer (passive)        | C76871                  | PS1240P02BT                                |
@@ -46,8 +48,8 @@ The below is just a static version of that...
 | J2                              | USB_C_Receptacle_GCT_USB4085         | 1        | USB_C_Receptacle_PowerOnly_6P | C668623                 | TYPE-C 6P(073)                             |
 | R1, R2, R3, R4                  | 0805                                 | 4        | 100                           | C17408                  | 0805W8F1000T5E                             |
 | R10, R11                        | 0805                                 | 2        | 5k1                           | C27834                  | 0805W8F5101T5E                             |
-| R12, R8, R9                     | 0805                                 | 3        | 4k7                           | C17673                  | 0805W8F4701T5E                             |
-|                                 |                                      |          |                               |                         |                                            |
+| R12, R8, R9                     | 0805                                 | 3        | 4k7                           | C17673                  | 0805W8F4701T5E|
+|||||||
 | R7                              | 0805                                 | 1        | 330 (RK led)                  | C17437                  | 0805W8F1200T5E                             |
 | SW1                             | SW-SMD_MST-12D18G4-SPDT-SLIDE-SWITCH | 1        | MST-12D18G4 SPDT SLIDE SWITCH | C49023767               | MST-12D18G4 SPDT Slide Switch              |
 | U1                              | TO-252-3_TabPin2                     | 1        | AMS1117CD-3.3                 | C6186                   | AMS1117-3.3                                |
