@@ -2716,6 +2716,285 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MST-12D18G4_SPDT_SLIDE_SWITCH:MST-12D18G4SPDTSLIDESWITCH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MST-12D18G4 SPDT SLIDE SWITCH"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "C49023767:SW-SMD_MST-12D18G4-SPDT-SLIDE-SWITCH"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C49023767.pdf"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SHOU HAN(首韩)"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "MST-12D18G4 SPDT Slide Switch"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C49023767"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MST-12D18G4SPDTSLIDESWITCH_0_1"
+				(rectangle
+					(start -5.08 0.76)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0.76) (xy -4.06 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0.76) (xy -3.56 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0.76) (xy -3.81 2.29) (xy 1.27 2.29) (xy 1.27 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 0.76)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.03) (xy 1.27 3.3) (xy 6.35 3.3) (xy 6.35 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.76) (xy 1.02 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.76) (xy 1.52 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 0.76)
+					(end 7.62 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0.76) (xy 6.1 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0.76) (xy 6.6 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -2.54 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -3355,207 +3634,6 @@
 						)
 					)
 					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_SPDT_MSM"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPDT_MSM"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -13.97 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Switch, single pole double throw, center OFF position"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch spdt single-pole double-throw ON-OFF-ON"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPDT_MSM_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPDT_MSM_1_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4442,16 +4520,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 162.56) (xy 33.02 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "354b6372-9b44-4893-a880-63038d315d79")
-	)
-	(wire
-		(pts
 			(xy 196.85 82.55) (xy 196.85 87.63)
 		)
 		(stroke
@@ -4549,6 +4617,16 @@
 			(type default)
 		)
 		(uuid "47770fec-4f83-4334-b946-e4f607982224")
+	)
+	(wire
+		(pts
+			(xy 29.21 158.75) (xy 31.75 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e18dc5-583d-4f51-bd8a-458d7ab83d97")
 	)
 	(wire
 		(pts
@@ -4662,16 +4740,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 157.48) (xy 33.02 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5807029c-31c7-4741-8bf5-4a0948cf4a8b")
-	)
-	(wire
-		(pts
 			(xy 71.12 123.19) (xy 83.82 123.19)
 		)
 		(stroke
@@ -4679,16 +4747,6 @@
 			(type default)
 		)
 		(uuid "5a555c17-a169-4630-981f-a9c901f9b717")
-	)
-	(wire
-		(pts
-			(xy 49.53 153.67) (xy 36.83 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dd98f19-ca41-4488-8c5b-ba625bf63f47")
 	)
 	(wire
 		(pts
@@ -5022,6 +5080,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 163.83) (xy 36.83 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea327e2-b7bd-4601-82b6-bb389ac45e29")
+	)
+	(wire
+		(pts
 			(xy 194.31 101.6) (xy 194.31 106.68)
 		)
 		(stroke
@@ -5042,7 +5110,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 167.64) (xy 36.83 162.56)
+			(xy 36.83 167.64) (xy 36.83 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5179,16 +5247,6 @@
 			(type default)
 		)
 		(uuid "b2f7c542-616b-40ff-8d82-fa4b9a688f35")
-	)
-	(wire
-		(pts
-			(xy 20.32 160.02) (xy 22.86 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3779c3e-1241-4c5e-af95-ba7416f185b3")
 	)
 	(wire
 		(pts
@@ -5392,13 +5450,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 153.67) (xy 36.83 157.48)
+			(xy 29.21 153.67) (xy 49.53 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d85c451b-eaa9-43a8-96fa-f463e5884238")
+		(uuid "d64d2de0-87d6-4a42-9244-0cb8af9b9410")
 	)
 	(wire
 		(pts
@@ -6385,7 +6443,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "0"
 			(at 129.5399 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6966,7 +7024,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 20.32 160.02 90)
+		(at 31.75 158.75 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6974,10 +7032,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "57e2ca46-16db-4be9-8634-ea0a77e80c08")
 		(property "Reference" "#PWR02"
-			(at 24.13 160.02 0)
+			(at 27.94 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6988,7 +7045,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 16.51 160.0199 90)
+			(at 31.496 156.718 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6999,7 +7056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 160.02 0)
+			(at 31.75 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7010,7 +7067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 160.02 0)
+			(at 31.75 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7021,7 +7078,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 20.32 160.02 0)
+			(at 31.75 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8085,6 +8142,122 @@
 		)
 	)
 	(symbol
+		(lib_id "MST-12D18G4_SPDT_SLIDE_SWITCH:MST-12D18G4SPDTSLIDESWITCH")
+		(at 26.67 160.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "803bffc7-1bf3-41e6-9faa-08708d048e91")
+		(property "Reference" "SW2"
+			(at 25.02 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MST-12D18G4 SPDT SLIDE SWITCH"
+			(at 25.02 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Newsymbols:SW-SMD_MST-12D18G4-SPDT-SLIDE-SWITCH"
+			(at 36.83 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49023767.pdf"
+			(at 39.37 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 41.91 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MST-12D18G4 SPDT Slide Switch"
+			(at 44.45 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C49023767"
+			(at 46.99 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "efb889c1-455a-4184-a4f0-26802b869a03")
+		)
+		(pin "1"
+			(uuid "37df3eb9-92d6-49ca-9f85-6abed58e981d")
+		)
+		(pin "2"
+			(uuid "f5bd1393-0b44-4665-8676-348ab4dd04b7")
+		)
+		(instances
+			(project "keychainProj"
+				(path "/e6e2aaf7-f887-43da-a319-215922018b95"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 115.57 270)
 		(unit 1)
@@ -8400,7 +8573,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "0"
 			(at 129.5399 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8468,7 +8641,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95713956-6a66-46d0-bf51-0d178797c3e0")
@@ -8811,7 +8984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y"
+		(property "Footprint" "ModuleLibrary:LIS3DH_Aliexpress_Module"
 			(at 99.06 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9236,89 +9409,6 @@
 			(project "keychainProj"
 				(path "/e6e2aaf7-f887-43da-a319-215922018b95"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPDT_MSM")
-		(at 27.94 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6a1c46c-dc4d-4d4b-a526-1c96ff4d0a0c")
-		(property "Reference" "SW1"
-			(at 27.94 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT_MSM"
-			(at 27.94 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
-			(at 13.97 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch, single pole double throw, center OFF position"
-			(at 27.94 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "50b642ef-3797-4db3-a5fa-93d09c661531")
-		)
-		(pin "1"
-			(uuid "8e6c2ec7-8b8c-44de-87d9-b6a4df493a4b")
-		)
-		(pin "2"
-			(uuid "714c3199-c4a3-4533-a529-12cca36a2174")
-		)
-		(instances
-			(project "keychainProj"
-				(path "/e6e2aaf7-f887-43da-a319-215922018b95"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
