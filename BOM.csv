@@ -1,7 +1,4 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
-LIS3DH,1,LCSC,$1.83,$1.83,https://www.lcsc.com/product-detail/C15134.html
-3.3V LDO,5,LCSC,$0.21,$1.05,https://www.lcsc.com/product-detail/C6186.html
-0805 red LEDs,10,LCSC,$0.13,$1.30,https://www.lcsc.com/product-detail/C5875730.html
 RGB LED,10,LCSC,$0.07,$0.70,https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_EKINGLUX-E6C1209RGBC3UDA_C375572.html
 100 ohm resistor,100,LCSC,$0.01,$1.00,https://www.lcsc.com/product-detail/C2906981.html
 47Ω Resistor,100,LCSC,$0.01,$1.00,https://www.lcsc.com/product-detail/C2907043.html
