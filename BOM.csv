@@ -1,2 +1,3 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
+PCB Assembly,1,JLCPCB,$24.14,$24.14,https://cart.jlcpcb.com/quote
 Estimated total shipping,1,,,$0.75,
