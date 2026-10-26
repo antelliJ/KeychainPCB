@@ -1,11 +1,4 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
-RGB LED,10,LCSC,$0.07,$0.70,https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_EKINGLUX-E6C1209RGBC3UDA_C375572.html
-100 ohm resistor,100,LCSC,$0.01,$1.00,https://www.lcsc.com/product-detail/C2906981.html
-47Ω Resistor,100,LCSC,$0.01,$1.00,https://www.lcsc.com/product-detail/C2907043.html
-330Ω Resistor,20,LCDC,$0.02,$0.40,https://www.lcsc.com/product-detail/C666864.html
-4.7kΩ Resistor,100,LCSC,$0.01,$1.00,https://www.lcsc.com/product-detail/C99782.html
-5.1kΩ Resistor,100,LCSC,$0.01,$1.00,https://www.lcsc.com/product-detail/C105580.html
-10kΩ Resistor,100,LCSC,$0.01,$1.00,https://www.lcsc.com/product-detail/C98220.html
 100 nF Capacitors,100,LCSC,$0.01,$1.00,https://www.lcsc.com/product-detail/C1591.html
 CR2032 battery holder,5,LCSC,$0.06,$0.30,https://www.lcsc.com/product-detail/C5239862.html
 DP3T slide switch,1,LCSC,$2.12,$2.12,https://www.lcsc.com/product-detail/C221667.html
