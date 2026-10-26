@@ -9,7 +9,7 @@ This is a personalized PCB that aims to be carried around on a keychain, a fun P
 
 ## Usage and Info
 
-Uses either a CR2032 or USB-C to power a CH32V003 MCU, toggled between using a 3 way switch.
+Uses either a CR2032 or USB-C to power a CH32V003 MCU, toggled between using a 2 way switch.
 
 a LIS331HH communicates to the board to activate the LED's based on the motion associated.
 
@@ -19,8 +19,17 @@ The back silkscreen plugs my [github account](https://github.com/antelliJ) throu
 
 The front silkscreens include some random things I thought would be interesting, like a ruler and fun hints to get people interested in what the board can actually do
 
-### Features (mostly planned)
 
+### File structure
+`\PCB\` includes files relevant for the pcb and manufacturing. 
+<br>
+    `\PCB\production` are the files used for PCB manufacturing
+
+`\Code\` is intended for all the code, which is basically empty at the moment. Eventually it will have the custom firmware.
+
+### Features (mostly planned)
+Shake to wake, various taps can cycle through the different animations.
+One of which that would show a morse code representation of my name, among other small animations with the leds.
 
 ## Bill of Materials
 A nicely formatted excel sheet is provided at `\PCB\production\Keychain-Bom.xlsx`
@@ -45,7 +54,7 @@ The below is just a static version of that...
 | U2                              | LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y | 1        | LIS3DH                        | C15134                  | LIS3DHTR                                   |
 | U4                              | TSSOP-20_4.4x6.5mm_P0.65mm           | 1        | CH32V003FxPx                  | C5187096                | CH32V003F4P6                               |
 
-** You may notice that r5 and r6 are missing, I included them in the schematic for the blue and green LEDs in the center RGB LED, but I don't think there is enough power for it to make it worth it? If anything it would just reduce the brightness from whatever it already is.
+** You may notice that r5 and r6 are missing, I included them in the schematic for the blue and green LEDs in the center RGB LED, but I don't think there is enough power for it to make it worth it? If anything it would just reduce the brightness from whatever it already is. Those pads should just be wired together if using the gerber files as is.
 
 
 
