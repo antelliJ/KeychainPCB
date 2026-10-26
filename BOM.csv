@@ -1,3 +1,4 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
 PCB Assembly,1,JLCPCB,$24.14,$24.14,https://cart.jlcpcb.com/quote
+LIS3DH module,1,AliExpress,$3.15,$3.15,https://www.aliexpress.com/item/1005010373628490.html
 Estimated total shipping,1,,,$0.75,
