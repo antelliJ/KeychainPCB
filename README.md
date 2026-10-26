@@ -1,7 +1,8 @@
 # Keychain
 Creating a keychain PCB badge
 
-<img width="1920" height="1080" alt="project banner" src="https://github.com/user-attachments/assets/06839e6f-121c-4707-a285-967971cb2c6f" />
+<img width="1920" height="1065" alt="project banner v2" src="https://github.com/user-attachments/assets/535a8c2b-b3ab-4d10-8c0b-560cb3a86534" />
+
 
 ## Purpose
 
@@ -18,6 +19,9 @@ Programmable input is available through the headers.
 The back silkscreen plugs my [github account](https://github.com/antelliJ) through a link and a QR code
 
 The front silkscreens include some random things I thought would be interesting, like a ruler and fun hints to get people interested in what the board can actually do
+
+
+<img width="373" height="244" alt="Screenshot 2026-10-26 170049" src="https://github.com/user-attachments/assets/1095c329-964d-406a-bbc1-da838116114e" />
 
 
 ### File structure
@@ -55,6 +59,9 @@ The below is just a static version of that...
 | U4                              | TSSOP-20_4.4x6.5mm_P0.65mm           | 1        | CH32V003FxPx                  | C5187096                | CH32V003F4P6                               |
 
 ** You may notice that r5 and r6 are missing, I included them in the schematic for the blue and green LEDs in the center RGB LED, but I don't think there is enough power for it to make it worth it? If anything it would just reduce the brightness from whatever it already is. Those pads should just be wired together if using the gerber files as is.
+
+
+<img width="445" height="260" alt="Screenshot 2026-10-26 150503" src="https://github.com/user-attachments/assets/64c53be0-da23-482e-ad9f-b652866a296f" />
 
 
 
