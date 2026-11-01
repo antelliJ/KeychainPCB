@@ -68,6 +68,6 @@ The below is just a static version of that...
 
 
 ## References
-A lot of things were picked up on the way of creating this priject, with it being my first proper PCB
+A lot of things were picked up on the way of creating this project, with it being my first proper PCB
 
 used [Table to Markdown](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/) to make the above BOM in the readme
