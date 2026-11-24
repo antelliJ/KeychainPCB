@@ -1,0 +1,1 @@
+-march=rv32ecxw -mabi=ilp32e -msmall-data-limit=0 -msave-restore -fmax-errors=20 -Os -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -fno-common -Wunused -Wuninitialized -g -x assembler-with-cpp -I"c:/Users/josev/OneDrive/Documents/KiCad/projects/HalfLifePCB/Keychain/Firmware/Charlieplex-test/Startup"
