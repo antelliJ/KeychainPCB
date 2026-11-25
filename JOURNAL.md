@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 15.45h | 6 |
+| Week 1 | Tier 1 | 14.45h | 6 |
 
 ## Contents
 
@@ -94,7 +94,7 @@ During the change of footprints and moving traces along a lot of what the traces
 
 ### 2026-11-23: I got to actually start putting together the pcb for this week
 
-**5h**
+**4h**
 
 I got to actually start putting together the pcb for this week
 
@@ -117,6 +117,5 @@ This was also my first time soldering header pins, which was fine for the debugg
 ![20261122_163319](https://halflife.hackclub-assets.com/sessions/Xt10ZK7FTi1vKiU37U67a1QQj2rKZWIn/113cf96fbc3c2ad69b753dc1f2c3e6d738fcac7f6805b3d94e9860a7a831a843.jpg)
 
 ![20261119_191021](https://halflife.hackclub-assets.com/sessions/Xt10ZK7FTi1vKiU37U67a1QQj2rKZWIn/77f2f3a02dfabfb27422f2e325815cfda5628d10aafb19562a17d6d3ed75225f.jpg)
-
 
 I still need to get it working with the pcb, and I have realized that I need to use interrupt 1 but I connected interrupt 2 to the board, so I'll have to splice the connection later.
